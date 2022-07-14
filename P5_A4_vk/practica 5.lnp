@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\startup_lpc17xx.o"
+".\system_lpc17xx.o"
+".\rtx_conf_cm.o"
+".\svc_table.o"
+".\RTX_CM3.lib"
+".\main.o"
+"D:\Programas y Juegos\Keil\ARM\RV31\LIB\RTX_CM3.LIB"
+--library_type=microlib --ro-base 0x00000000 --entry 0x00000000 --rw-base 0x10000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\practica 5.map" -o ".\practica 5.axf"
